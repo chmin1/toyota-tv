@@ -112,6 +112,15 @@
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8pR-hY-7sq">
+                                <rect key="frame" x="800" y="905" width="320" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <segue destination="5FG-f6-1Bh" kind="show" id="l8h-df-AkI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="wu6-TO-1qx"/>
@@ -125,6 +134,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="80" y="694"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hXw-S6-pD1">
+            <objects>
+                <viewController id="5FG-f6-1Bh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="I1j-R9-kgL"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZCk-6D-Bj0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lhH-g1-9gG">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="toyota-logo-lets-go-places-wallpaper-4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iA3-ni-Omh">
+                                <rect key="frame" x="444" y="166" width="1032" height="349"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="You should receive your text shortly!" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWC-aU-Hc6">
+                                <rect key="frame" x="359" y="622" width="1202" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.83953683035714288" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4Nb-sU-ld8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ko7-Pj-KLW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="80" y="2190"/>
         </scene>
     </scenes>
     <resources>
