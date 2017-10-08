@@ -13,6 +13,22 @@ class PhoneNumberViewController: UIViewController {
     @IBOutlet weak var lastTextField: UITextField!
     @IBOutlet weak var twoTextField: UITextField!
     @IBOutlet weak var areaCodeTextField: UITextField!
+    
+    @IBAction func didTapDone(_ sender: Any) {
+        
+        let number = areaCodeTextField.text! + twoTextField.text! + lastTextField.text!
+        
+        User.register(username: number, withPassword: "1234") { (success: Bool, error: Error?) in
+            if let error = error {
+                print("User sign up failed: \(error.localizedDescription)")
+            } else if success{
+                print("User was created")
+                self.performSegue(withIdentifier: "finishSignup", sender: nil)
+            }
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

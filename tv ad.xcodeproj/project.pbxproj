@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		06A76655D258E5E606FE2F6A /* Pods_tv_ad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 340824860AF9B68F1097B512 /* Pods_tv_ad.framework */; };
 		0B9E323B1F893AB000A8C1BF /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9E323A1F893AB000A8C1BF /* PhoneNumberViewController.swift */; };
+		0B9E32411F89610E00A8C1BF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9E32401F89610E00A8C1BF /* User.swift */; };
 		39556900B86BD8AA786F5F56 /* Pods_tv_adTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F70D454BDB3152C41C089D2 /* Pods_tv_adTests.framework */; };
 		75290A59BB174B0D781CA59E /* Pods_tv_adUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4203D1B9F37A60F72B5BF4F /* Pods_tv_adUITests.framework */; };
 		F93A22051F86CCE50001F77F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22041F86CCE50001F77F /* AppDelegate.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		0B9E323A1F893AB000A8C1BF /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
+		0B9E32401F89610E00A8C1BF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1F70D454BDB3152C41C089D2 /* Pods_tv_adTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tv_adTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED92766A13B65F99B871726 /* Pods-tv adTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tv adTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tv adTests/Pods-tv adTests.debug.xcconfig"; sourceTree = "<group>"; };
 		340824860AF9B68F1097B512 /* Pods_tv_ad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tv_ad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,6 +145,7 @@
 				F93A220B1F86CCE50001F77F /* Assets.xcassets */,
 				F93A220D1F86CCE50001F77F /* Info.plist */,
 				0B9E323A1F893AB000A8C1BF /* PhoneNumberViewController.swift */,
+				0B9E32401F89610E00A8C1BF /* User.swift */,
 			);
 			path = "tv ad";
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B9E32411F89610E00A8C1BF /* User.swift in Sources */,
 				F93A22071F86CCE50001F77F /* ViewController.swift in Sources */,
 				F93A22051F86CCE50001F77F /* AppDelegate.swift in Sources */,
 				0B9E323B1F893AB000A8C1BF /* PhoneNumberViewController.swift in Sources */,
